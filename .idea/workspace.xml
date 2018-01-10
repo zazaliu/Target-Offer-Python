@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c5113b-e10d-4ffd-86e0-bb3248040e8d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/003-二维数组中的查找/003.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/003-二维数组中的查找/find.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/003-二维数组中的查找/find7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/003-二维数组中的查找/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/004-替换空格/004.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/004-替换空格/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/005-从尾到头打印链表/005.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/006-重建二叉树/006.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/007-用两个栈实现队列/007.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/008-旋转数组的最小值/008.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/009-斐波那契数列/009.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/010-二进制中1的个数/010.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/011-数值的整数次方/011.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/012-打印1到最大的N位数/012.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/014-调整数组顺序使奇数位于偶数前面/014.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/015-链表中倒数第k个结点/015.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/016-反转链表/016.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/017-合并两个排序的链表/017.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,36 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="004.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/004-替换空格/004.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="008.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008-旋转数组的最小值/008.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="009.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/009-斐波那契数列/009.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="010.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/010-二进制中1的个数/010.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,8 +31,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="012.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/012-打印1到最大的N位数/012.py">
+      <file leaf-file-name="017.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/017-合并两个排序的链表/017.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -84,44 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="011.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/011-数值的整数次方/011.py">
+      <file leaf-file-name="012.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/012-打印1到最大的N位数/012.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/004-替换空格/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="005.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/005-从尾到头打印链表/005.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="006.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/006-重建二叉树/006.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,6 +88,10 @@
         <option value="$PROJECT_DIR$/011-数值的整数次方/011.py" />
         <option value="$PROJECT_DIR$/010-二进制中1的个数/010.py" />
         <option value="$PROJECT_DIR$/012-打印1到最大的N位数/012.py" />
+        <option value="$PROJECT_DIR$/014-调整数组顺序使奇数位于偶数前面/014.py" />
+        <option value="$PROJECT_DIR$/015-链表中倒数第k个结点/015.py" />
+        <option value="$PROJECT_DIR$/016-反转链表/016.py" />
+        <option value="$PROJECT_DIR$/017-合并两个排序的链表/017.py" />
       </list>
     </option>
   </component>
@@ -174,10 +102,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="980" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -211,7 +139,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodingInterviews" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MillionHeroAssisdant" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -423,47 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/005-从尾到头打印链表/005.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/006-重建二叉树/006.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007-用两个栈实现队列/007.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/004-替换空格/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-2646">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/004-替换空格/004.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -496,7 +383,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/010-二进制中1的个数/010.py">
+    <entry file="file://$PROJECT_DIR$/004-替换空格/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-2646">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="252">
+            <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/015-链表中倒数第k个结点/015.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/016-反转链表/016.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/014-调整数组顺序使奇数位于偶数前面/014.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/005-从尾到头打印链表/005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/006-重建二叉树/006.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/007-用两个栈实现队列/007.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -505,6 +449,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/012-打印1到最大的N位数/012.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/010-二进制中1的个数/010.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017-合并两个排序的链表/017.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
