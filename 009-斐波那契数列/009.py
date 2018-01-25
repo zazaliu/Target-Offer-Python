@@ -2,6 +2,11 @@
 class Solution:
     def Fibonacci(self, n):
         # write code here
+        """
+        :param n:
+        :return:
+        时间复杂度：O(n)
+        """
         res = [0, 1, 1]
         if n <= 2:
             return res[n]
