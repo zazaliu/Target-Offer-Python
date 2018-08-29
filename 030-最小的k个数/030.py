@@ -1,13 +1,14 @@
 # -*- coding:utf-8 -*-
+import heapq
 class Solution:
     def GetLeastNumbers_Solution(self, tinput, k):
-        # write code here
-        if k > len(tinput) or k == 0:
+        if not tinput or k > len(tinput):
             return []
-        res = tinput[:k]
-        res.sort()
-        for i in range(k,len(tinput)):
-            if tinput[i] < res[-1]:
-                res[-1] = tinput[i]
-                res.sort()
-        return res
+        maxHeap = []
+        for item in tinput:
+            item = -item
+            if len(maxHeap) < k:
+                heapq.heappush(maxHeap, item)
+            else:
+                heapq.heappushpop(maxHeap, item)
+        return [-heapq.heappop(maxHeap) for i in range(len(maxHeap))][::-1]
