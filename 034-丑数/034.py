@@ -14,7 +14,7 @@ class Solution:
                 t3 += 1
             if res[-1] == res[t5]*5:
                 t5 += 1
-        return res[index-1]
+        return res[-1]
 
 
 solution = Solution()
