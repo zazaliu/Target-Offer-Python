@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 class Solution:
-    def NumberOf1Between1AndN_Solution(self, n):
+    def NumberOf1Between1AndN_Solution1(self, n):
         # write code here
         """
         :param n:
@@ -18,3 +18,20 @@ class Solution:
             res += (n/m+8)/10*m+(n/m%10 == 1)*(n%m+1)
             m *= 10
         return res
+    
+    def NumberOf1Between1AndN_Solution2(self, n):
+        # write code here
+        count = 0
+        factor, low, cur, high = 1, 0, 0, 0
+        while n/factor > 0:
+            low = n-(n/factor)*factor
+            cur = (n/factor)%10
+            high = n/(factor*10)
+            if cur == 0:
+                count += high*factor
+            elif cur == 1:
+                count += high*factor+low+1
+            else:
+                count += (high+1)*factor
+            factor *= 10
+        return count
