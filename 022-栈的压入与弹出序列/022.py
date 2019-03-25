@@ -4,7 +4,7 @@ class Solution:
         stack = []
         for pushItem in pushV:
             stack.append(pushItem)
-            if stack[-1] == popV[0]:
+            while stack and stack[-1] == popV[0]:
                 stack.pop()
                 popV.pop(0)
         for popItem in popV:
